@@ -18,12 +18,12 @@ public class TestRunner {
 
         Class<UserInfoTest> userInfoTestClass = UserInfoTest.class;
 
-        if (userInfoTestClass.isAnnotationPresent(TesterInfo.class)) {
-            Annotation annotation = userInfoTestClass.getAnnotation(TesterInfo.class);
-            TesterInfo testerInfo = (TesterInfo) annotation;
-            System.out.println("============== Tester Info ============");
-            System.out.println("Name: " + testerInfo.name());
-            System.out.println("Date: " + testerInfo.date());
+        if (userInfoTestClass.isAnnotationPresent(UnitTest.class)) {
+            Annotation annotation = userInfoTestClass.getAnnotation(UnitTest.class);
+            UnitTest unitTestInfo = (UnitTest) annotation;
+            System.out.println("============== Unit Test Info ============");
+            System.out.println("Name: " + unitTestInfo.author());
+            System.out.println("Date: " + unitTestInfo.created());
 
             runTests(userInfoTestClass);
         }

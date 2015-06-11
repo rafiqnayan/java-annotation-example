@@ -4,14 +4,14 @@ import com.example.app.UserInfo;
 import com.example.system.Assert;
 import com.example.system.BeforeMethod;
 import com.example.system.Test;
-import com.example.system.TesterInfo;
+import com.example.system.UnitTest;
 
 /**
  * Created by Nayan on 11 June, 2015
  */
-@TesterInfo(
-        name="Rafiqunnabi Nayan",
-        date="2015-06-11"
+@UnitTest(
+        author ="Rafiqunnabi Nayan",
+        created ="2015-06-11"
 )
 public class UserInfoTest {
 

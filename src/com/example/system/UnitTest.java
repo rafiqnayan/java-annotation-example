@@ -10,9 +10,9 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE) //on class level
-public @interface TesterInfo {
+public @interface UnitTest {
 
-    String name();
+    String author();
 
-    String date();
+    String created();
 }
