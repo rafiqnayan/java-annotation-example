@@ -5,5 +5,7 @@ This project is a simple demonstration of how unit test frameworks use annotatio
 in this project are commonly used in unit test frameworks.
 
 `@Test`: indicates this method is a unit test method
+
 `@TesterInfo`: shows the tester information
+
 `@BeforeMethod`: methods annotated with this will run before each test method
