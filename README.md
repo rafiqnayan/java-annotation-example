@@ -1,4 +1,4 @@
-# java-annotation-example
+# Annotation example in Java
 Demonstrates a how annotations work in java and how to access them using Java reflection API.
 
 This project is a simple demonstration of how unit test frameworks use annotations to run tests.
